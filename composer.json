@@ -5,6 +5,7 @@
         "name": "Laravel Daily",
         "email": "info@laraveldaily.com"
     }],
+    "license": "MIT",
     "require": {
         "php": ">=5.3.0"
     },
@@ -19,7 +20,10 @@
 
     "autoload": {
         "psr-4": {
-            "Laraveldaily\\Timezones\\": "/src"
+            "Laraveldaily\\Timezones\\": "src"
+        },
+        "psr-0": {
+            "Monolog": "src"
         }
     }
 
